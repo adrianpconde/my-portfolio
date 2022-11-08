@@ -9,7 +9,7 @@
   padding-top: 10px;
   top: 0;
   z-index: 3;
-  transition: all 2s ease;
+  transition: all .5s ease;
 
   .wrapper {
     padding: 10px 30px;
@@ -47,7 +47,7 @@
     }
 
     .right {
-      .hamburger-btn {
+      .hamburgerBtn {
         width: 32px;
         height: 25px;
         display: flex;
@@ -61,7 +61,7 @@
           height: 3px;
           background-color: $mainColor;
           transform-origin: left;
-          transition: all 1s ease;
+          transition: all .5s ease;
         }
       }
     }
@@ -71,7 +71,7 @@
     background-color: $mainColor;
     color: white;
 
-    .hamburger-btn {
+    .hamburgerBtn {
       span {
         &:first-child {
           background-color: white;

@@ -8,7 +8,7 @@ function Portfolio() {
       <div className="container">
         <div className="project">
           <div className="item">
-            <img src="assets/DinoJump!.png" alt="" />
+            <img src="assets/DinoJump!.png" alt="DinoJump! logo" />
             <h3>DinoJump!</h3>
           </div>
           <div className="buttons">
@@ -22,7 +22,7 @@ function Portfolio() {
         </div>
         <div className="project">
           <div className="item">
-            <img src="assets/tv-tracker.png" alt="" />
+            <img src="assets/tv-tracker.png" alt="TV-TRACKER App" />
             <h3>TV-TRACKER</h3>
           </div>
           <div className="buttons">
@@ -36,7 +36,7 @@ function Portfolio() {
         </div>
         <div className="project">
           <div className="item">
-            <img src="assets/shipping-bids.png" alt="" />
+            <img src="assets/shipping-bids.png" alt="Shipping Bids" />
             <h3>Shipping-Bids</h3>
           </div>
           <div className="buttons">

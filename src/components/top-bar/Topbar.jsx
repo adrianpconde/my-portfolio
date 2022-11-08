@@ -10,7 +10,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
         <div className="left">
           <a href="#intro" className="logo">
             {" "}
-            .adrianpconde
+            adrianpconde
           </a>
           <div className="itemContainer">
             <AccountCircleIcon className="icon" />
@@ -22,7 +22,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
           </div>
         </div>
         <div className="right">
-          <div className="hamburger-btn" onClick={() => setMenuOpen(!menuOpen)}>
+          <div className="hamburgerBtn" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="lineOne"></span>
             <span className="lineTwo"></span>
             <span className="lineThree"></span>

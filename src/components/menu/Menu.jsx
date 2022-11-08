@@ -14,7 +14,7 @@ function Menu({ menuOpen, setMenuOpen }) {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li onClick={handleCloseMenu}>
-          <a href="#works">Works</a>
+          <a href="#resume">Resume</a>
         </li>
         <li onClick={handleCloseMenu}>
           <a href="#contact">Contact</a>
