@@ -1,14 +1,21 @@
+@import "../../global.scss";
+
 .intro {
   background-color: white;
   display: flex;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
 
   .left {
     flex: 0.5;
     overflow: hidden;
 
     .imgContainer {
-      width: 860px;
-      height: 850px;
+      width: 800px;
+      height: 800px;
       background-color: yellow;
       border-radius: 50%;
       display: flex;
@@ -17,8 +24,12 @@
       float: right;
       margin-top: 25px;
 
-      .img {
-        height: 100%;
+      img {
+        height: 80%;
+
+        @include mobile {
+          height: 100%;
+        }
       }
     }
   }
@@ -35,15 +46,33 @@
       flex-direction: column;
       justify-content: center;
 
+      @include mobile {
+        padding-left: 0;
+        align-items: center;
+      }
+
       h1 {
         font-size: 60px;
         margin: 10px 0;
+
+        @include mobile {
+          font-size: 45px;
+          text-align: center;
+        }
       }
       h2 {
         font-size: 35px;
+
+        @include mobile {
+          font-size: 30px;
+        }
       }
       h3 {
         font-size: 30px;
+
+        @include mobile {
+          font-size: 18px;
+        }
 
         span {
           font-size: inherit;
@@ -51,7 +80,7 @@
         }
 
         .ityped-cursor {
-          animation: blink 1s infinite;
+          animation: blink .5s infinite;
         }
 
         @keyframes blink {
@@ -63,7 +92,6 @@
             opacity: 0;
           }
         }
-
       }
     }
 

@@ -10,7 +10,8 @@ function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      strings: ['Junior Front-End Developer', 'Junior Full Stack Developer'],
+      typeSpeed: 70,
+      strings: ['Junior Front-End Developer', 'Junior Full-Stack Developer'],
     });
   }, []);
   

@@ -12,12 +12,12 @@ function Portfolio() {
             <h3>DinoJump!</h3>
           </div>
           <div className="buttons">
-            <button className="btn">
-              <a href="https://adrianpconde.github.io/DinoJump/">DEMO</a>
-            </button>
-            <button className="btn">
-              <a href="https://github.com/adrianpconde/DinoJump">CODE</a>
-            </button>
+            <a href="https://adrianpconde.github.io/DinoJump/">
+              <button className="btnDemo">Demo</button>
+            </a>
+            <a href="https://github.com/adrianpconde/DinoJump">
+              <button className="btnCode">Code</button>
+            </a>
           </div>
         </div>
         <div className="project">
@@ -26,12 +26,12 @@ function Portfolio() {
             <h3>TV-TRACKER</h3>
           </div>
           <div className="buttons">
-            <button className="btn">
-              <a href="https://tvtrackerweb.herokuapp.com/">DEMO</a>
-            </button>
-            <button className="btn">
-              <a href="https://github.com/tv-track/tv-tracker">CODE</a>
-            </button>
+            <a href="https://tvtrackerweb.herokuapp.com/">
+              <button className="btnDemo">Demo</button>
+            </a>
+            <a href="https://github.com/tv-track/tv-tracker">
+              <button className="btnCode">Code</button>
+            </a>
           </div>
         </div>
         <div className="project">
@@ -40,14 +40,12 @@ function Portfolio() {
             <h3>Shipping-Bids</h3>
           </div>
           <div className="buttons">
-            <button className="btn">
-              <a href="https://shipping-bids.herokuapp.com/">DEMO</a>
-            </button>
-            <button className="btn">
-              <a href="https://github.com/shippingbids-app/shipping-bids-app">
-                CODE
-              </a>
-            </button>
+            <a href="https://shipping-bids.herokuapp.com/">
+              <button className="btnDemo">Demo</button>
+            </a>
+            <a href="https://github.com/shippingbids-app/shipping-bids-app">
+              <button className="btnCode">Code</button>
+            </a>
           </div>
         </div>
       </div>
