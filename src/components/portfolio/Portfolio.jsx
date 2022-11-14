@@ -12,10 +12,10 @@ function Portfolio() {
             <h3>DinoJump!</h3>
           </div>
           <div className="buttons">
-            <a href="https://adrianpconde.github.io/DinoJump/">
+            <a href="https://adrianpconde.github.io/DinoJump/" target="_blank" rel="noreferrer">
               <button className="btnDemo">Demo</button>
             </a>
-            <a href="https://github.com/adrianpconde/DinoJump">
+            <a href="https://github.com/adrianpconde/DinoJump" target="_blank" rel="noreferrer">
               <button className="btnCode">Code</button>
             </a>
           </div>
@@ -26,10 +26,10 @@ function Portfolio() {
             <h3>TV-TRACKER</h3>
           </div>
           <div className="buttons">
-            <a href="https://tvtrackerweb.herokuapp.com/">
+            <a href="https://tvtrackerweb.herokuapp.com/" target="_blank" rel="noreferrer">
               <button className="btnDemo">Demo</button>
             </a>
-            <a href="https://github.com/tv-track/tv-tracker">
+            <a href="https://github.com/tv-track/tv-tracker" target="_blank" rel="noreferrer">
               <button className="btnCode">Code</button>
             </a>
           </div>
@@ -40,10 +40,10 @@ function Portfolio() {
             <h3>Shipping-Bids</h3>
           </div>
           <div className="buttons">
-            <a href="https://shipping-bids.herokuapp.com/">
+            <a href="https://shipping-bids.herokuapp.com/" target="_blank" rel="noreferrer">
               <button className="btnDemo">Demo</button>
             </a>
-            <a href="https://github.com/shippingbids-app/shipping-bids-app">
+            <a href="https://github.com/shippingbids-app/shipping-bids-app" target="_blank" rel="noreferrer">
               <button className="btnCode">Code</button>
             </a>
           </div>

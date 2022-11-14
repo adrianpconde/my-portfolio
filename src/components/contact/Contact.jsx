@@ -12,10 +12,10 @@ function Contact() {
         <h5>Do you want to know more about me?</h5>
         <h4>
           Book a time in my calendar or send me an email{" "}
-          <a href="mailto:adrian.perez.conde22@gmail.com">here</a>.
+          <a href="mailto:adrian.perez.conde22@gmail.com" target="_blank" rel="noreferrer">here</a>.
         </h4>
         <h5>It will be so nice to talk!</h5>
-        <a href="https://calendly.com/adrianpconde">
+        <a href="https://calendly.com/adrianpconde" target="_blank" rel="noreferrer">
           <button>Go to Calendly</button>
         </a>
       </div>

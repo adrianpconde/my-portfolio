@@ -16,23 +16,38 @@ function Topbar({ menuOpen, setMenuOpen, theme, toggleTheme }) {
           </a>
           <div className="itemContainer">
             <AccountCircleIcon className="icon" />
-            <span>+34 660 721 408</span>
+            <a href="https://wa.me/34660721408" target="_blank"
+              rel="noreferrer"> <span>+34 660 721 408</span></a>
+           
           </div>
           <div className="itemContainer">
             <MailIcon className="icon" />
-            <span>adrian.perez.conde22@gmail.com</span>
+            <a
+              href="mailto:adrian.perez.conde22@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Let's talk!</span>
+            </a>
           </div>
           <div className="itemContainer">
-            <a href="https://www.linkedin.com/in/adrianpconde/">
+            <a
+              href="https://www.linkedin.com/in/adrianpconde/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <LinkedInIcon className="icon" />
               <span>My LinkedIn Profile</span>
             </a>
           </div>
           <div className="itemContainer">
-            <a href="https://github.com/adrianpconde">
+            <a
+              href="https://github.com/adrianpconde"
+              target="_blank"
+              rel="noreferrer"
+            >
               <GitHubIcon className="icon" />
-              <span>https://github.com/adrianpconde</span>
-
+              <span>adrianpconde</span>
             </a>
           </div>
         </div>

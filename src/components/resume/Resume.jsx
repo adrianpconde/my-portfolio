@@ -8,18 +8,14 @@ function Resume() {
         <h1>About me</h1>
         <br />
         <p>
-          Journalist by vocation since I was young, curious and enthusiastic
-          about new technologies and web development, I like to spend my free
-          time learning new things.
-          <br />
-          <br />I have a Bachelor's Degree in <b>Journalism</b> and another one
-          in <b>Communication and Media Studies</b>. After several years working
-          in media, I'm seeking new horizons and opportunities on web
-          development world.
-          <br />
-          <br />
-          Due to my restless mind, I wanted to go further in my professional
-          career and began learning by myself. Then, I studied the{" "}
+          Journalist by vocation, curious and enthusiastic about new
+          technologies and web development, I like to spend my free time
+          learning new things. I have a Bachelor's Degree in <b>Journalism</b>{" "}
+          and another one in <b>Communication and Media Studies</b>. After
+          several years working in media, I'm seeking new horizons and
+          opportunities on web development world. Due to my restless mind, I
+          wanted to go further in my professional career and began learning by
+          myself. I also studied the{" "}
           <b>Full Stack Web Development Bootcamp at Ironhack</b>, where I did my
           first projects and learned a lot of new and exciting things about
           coding.
@@ -31,7 +27,11 @@ function Resume() {
           collaboration and learning.
         </h3>
         <div class="downloadButton">
-          <a href="https://drive.google.com/file/d/1JFyNvbVwFTzYlrIyR2N-bxNyvoZOcHB0/view?usp=sharing">
+          <a
+            href="https://drive.google.com/file/d/1JFyNvbVwFTzYlrIyR2N-bxNyvoZOcHB0/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="btn">Check my resume</button>
           </a>
         </div>

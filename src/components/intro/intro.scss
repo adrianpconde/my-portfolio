@@ -99,9 +99,15 @@
       bottom: 10px;
       left: 40%;
 
+      @include mobile {
+        display: none;
+      }
+
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
+
+        
       }
 
       @keyframes arrowBlink {
