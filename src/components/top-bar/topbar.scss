@@ -54,13 +54,12 @@
           color: $mainColor;
           text-decoration: none;
           margin-right: 10px;
-          
 
           .icon {
             font-size: 18px;
             margin-right: 5px;
           }
-  
+
           span {
             font-size: 15px;
             font-weight: 500;
@@ -94,6 +93,10 @@
     background-color: $mainColor;
     color: white;
 
+    .itemContainer .icon,
+    .itemContainer a span {
+      color: white;
+    }
     .hamburgerBtn {
       span {
         &:first-child {
