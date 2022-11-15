@@ -28,7 +28,7 @@ function Resume() {
         </h3>
         <div class="downloadButton">
           <a
-            href="https://drive.google.com/file/d/1JFyNvbVwFTzYlrIyR2N-bxNyvoZOcHB0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1vjfTg9ofPTgvXYFzxD8kOpqXKWQczrj4/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
