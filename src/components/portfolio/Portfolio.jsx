@@ -48,6 +48,18 @@ function Portfolio() {
             </a>
           </div>
         </div>
+        <div className="project">
+          <div className="item">
+            <img src="assets/script.png" alt="Events-Scraper" />
+            <h3>Events-Scraper</h3>
+          </div>
+          <div className="buttons">
+            <a href="https://github.com/adrianpconde/events-scraper" target="_blank" rel="noreferrer">
+              <button className="btnCode">Code</button>
+            </a>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
